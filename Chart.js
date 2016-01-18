@@ -135,6 +135,8 @@
 	//Declare root variable - window in the browser, global on the server
 	var root = this,
 		Chart = root.Chart;
+	root.Color = require('color');
+	root.moment = require('moment');
 
 	//Global Chart helpers object for utility methods and classes
 	var helpers = Chart.helpers = {};
